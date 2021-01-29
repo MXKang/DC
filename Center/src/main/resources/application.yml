@@ -2,3 +2,9 @@ server:
   port: 9010
   servlet:
     context-path: /center
+
+nacos:
+#  config:
+#    server-addr: 49.232.90.163:8000
+  discovery:
+    server-addr: 49.232.90.163:8000
